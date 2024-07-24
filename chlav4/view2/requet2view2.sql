@@ -1,0 +1,10 @@
+SELECT 
+    DEPARTNAME,
+    EMPLOYEEID,
+    LASTNAME,
+    FIRSTNAME,
+    EMAIL
+FROM 
+    Employee_Department_Info_View
+ORDER BY 
+    DEPARTNAME, LASTNAME, FIRSTNAME;
